@@ -1,0 +1,133 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('pizza-hero.jpg') no-repeat center center/cover;
+    color: red;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Menu Section */
+#menu {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin:  30px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.menu-item p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* About and Contact Section */
+#about, #contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
